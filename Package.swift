@@ -19,7 +19,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/combine-schedulers", .upToNextMinor(from: "0.5.2")),
+        .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "0.5.2"),
     ],
     targets: [
         .target(
